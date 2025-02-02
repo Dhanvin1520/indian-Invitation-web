@@ -370,14 +370,14 @@ h2 {
 }
 
 /* For smaller screens (phones) */
-@media (max-width: 768px) {
+@media (max-width: 650px) {
   .fun-moments-container {
       flex-direction: column; 
       align-items: center;
   }
 
   .fun-moment-item {
-      width: 80%; 
+      width: 100%; 
       margin-bottom: 20px; 
   }
 
