@@ -42,7 +42,7 @@
   
   .navbar-links {
     font-size: .1px;
-    display: flex;
+    display: none;
     justify-content: space-between;
   }
   
