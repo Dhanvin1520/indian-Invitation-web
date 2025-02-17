@@ -4,13 +4,13 @@ function showSlides() {
     let slides = document.querySelector(".slides");
     index++;
 
-    if (index >= 4) {  // Since there are 3 images
+    if (index >= 4) { 
         index = 0;
     }
 
-    slides.style.transform = `translateX(${-index * 100}%)`; // Moves to next image
+    slides.style.transform = `translateX(${-index * 100}%)`;
 
-    setTimeout(showSlides, 4000);  // Change image every 5 seconds
+    setTimeout(showSlides, 4000);
 }
 
 showSlides();
